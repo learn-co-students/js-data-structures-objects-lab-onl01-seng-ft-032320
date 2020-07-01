@@ -6,7 +6,7 @@ describe('drivers', function() {
       }
 
       driver.name = 'Sam';
-    });
+    }); 
 
     it('returns a driver with the original key value pairs and the new key value pair', function () {
       expect(updateDriverWithKeyAndValue(driver, 'address', '11 Broadway')).to.eql({
